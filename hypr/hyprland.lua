@@ -47,7 +47,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal    = "kitty"
 local fileManager = "kitty yazi"
-local menu        = "wofi --show drun"
+local menu        = "hyprlauncher"
 local browser     = "firefox"
 
 
