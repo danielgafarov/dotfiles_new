@@ -47,7 +47,7 @@ hl.monitor({
 -- Set programs that you use
 local terminal    = "kitty"
 local fileManager = "kitty yazi"
-local menu        = "hyprlauncher"
+local menu        = "wofi --show drun"
 local browser     = "firefox"
 
 
@@ -76,9 +76,6 @@ hl.on("hyprland.start", function ()
   hl.exec_cmd("nm-applet &")
   --hl.exec_cmd("clevo-fan-control")
   --hl.exec_cmd("systemctl --user start sunshine")
-  --hl.exec_cmd("hyprlock")
-  --hl.exec_cmd("wallust run /home/daniel/Pictures/Wallpapers/wallhaven-5gpvg8.png")
-  --hl.exec_cmd("/home/daniel/.config/hypr/xdph.sh")
   end)
 
 
@@ -154,7 +151,7 @@ hl.config({
         inactive_opacity = 1.0,
 
         shadow = {
-            enabled      = true,
+            enabled      = false,
             range        = 4,
             render_power = 3,
             color        = 0xee1a1a1a,
@@ -305,7 +302,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
-hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+--hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.config/hypr/change_wallpaper.sh"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -'))
 hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("hyprctl keyword monitor 'eDP-1, 1920x1080@144, 1920x0, auto'"))

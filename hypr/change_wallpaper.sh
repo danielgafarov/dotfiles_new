@@ -17,10 +17,8 @@ done
 next_index=$(( (current_index + 1) % ${#wallpapers[@]} ))
 WALLPAPER="${wallpapers[$next_index]}"
 
-#WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" | shuf -n 1)
 
 # Apply the selected wallpaper
-wallust run "${WALLPAPER}"
 hyprctl hyprpaper wallpaper "DP-5, $WALLPAPER,"
 hyprctl hyprpaper wallpaper "eDP-1, $WALLPAPER,"
 
@@ -34,4 +32,3 @@ wallpaper {
     path = $WALLPAPER
 }
 " > ~/.config/hypr/hyprpaper.conf
-killall -SIGUSR2 waybar
