@@ -1,6 +1,0 @@
-mode = run
-insensitive = true
-lines = 5
-width = 25%
-allow_images = true
-normal_window = true

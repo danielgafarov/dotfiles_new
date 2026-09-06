@@ -46,7 +46,7 @@ hl.monitor({
 
 -- Set programs that you use
 local terminal    = "kitty"
-local fileManager = "kitty yazi"
+local fileManager = "kitty sh -c yazi"
 local menu        = "wofi --show drun"
 local browser     = "firefox"
 
@@ -158,7 +158,7 @@ hl.config({
         },
 
         blur = {
-            enabled   = true,
+            enabled   = false,
             size      = 3,
             passes    = 1,
             vibrancy  = 0.1696,
@@ -166,7 +166,7 @@ hl.config({
     },
 
     animations = {
-        enabled = true,
+        enabled = false,
     },
 })
 

@@ -7,10 +7,10 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/mode",
+        "hyprland/workspaces"
+        //"hyprland/mode",
         //"sway/scratchpad",
-        "custom/media"
+        //"custom/media"
     ],
     "modules-center": [
         "hyprland/window",
@@ -103,10 +103,10 @@
     "tray": {
         // "icon-size": 21,
         "spacing": 10,
-        // "icons": {
-        //   "blueman": "bluetooth",
-        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
-        // }
+         "icons": {
+           "blueman-applet": "bluetooth",
+           "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+         }
     },
     "clock": {
         // "timezone": "America/New_York",
