@@ -259,7 +259,7 @@ hl.config({
         kb_layout  = "eu,de",
         kb_variant = "",
         kb_model   = "",
-        kb_options = "grp:alt_space_toggle, compose:caps",
+        kb_options = "grp:alt_space_toggle",--, compose:caps",
         kb_rules   = "",
 
         follow_mouse = 1,
