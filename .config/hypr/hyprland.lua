@@ -99,7 +99,7 @@ hl.env("JAVA_HOME", "/home/daniel/Projects/SDKs/zulu17.68.203-ca-jdk17.0.20.1-li
 hl.env("ANDROID_HOME", "$HOME/Android/Sdk")
 hl.env("EDITOR", "/bin/nvim")
 hl.env("TERMINAL", "/bin/kitty")
---hl.env("RIPGREP_CONFIG_PATH","/home/daniel/.ripgreprc")
+hl.env("RIPGREP_CONFIG_PATH", "/home/daniel/.ripgreprc")
 
 
 -----------------------
