@@ -36,7 +36,7 @@ hl.monitor({
     mode     = "1920x1080@144",
     position = "1920x0",
     scale    = "auto",
-    disabled = true 
+    disabled = false
 })
 
 
@@ -95,6 +95,11 @@ hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("AQ_DRM_DEVICES", "/dev/dri/nvidia-dgpu:/dev/dri/intel-igpu")
 hl.env("MANGOHUD", "1")
 --hl.env("AQ_FORCE_LINEAR_BLIT", "0")
+hl.env("JAVA_HOME", "/usr/lib/jvm/default")
+hl.env("ANDROID_HOME", "$HOME/Android/Sdk")
+hl.env("EDITOR", "/bin/nvim")
+hl.env("TERMINAL", "/bin/kitty")
+--hl.env("RIPGREP_CONFIG_PATH","/home/daniel/.ripgreprc")
 
 
 -----------------------

@@ -87,7 +87,6 @@ end, { desc = 'Print the git blame for the current line' })
 -- Add the "nohlsearch" package to automatically disable search highlighting after
 -- 'updatetime' and when going to insert mode.
 vim.cmd('packadd! nohlsearch')
-
 -- Install third-party plugins via "vim.pack.add()".
 vim.pack.add({
   -- Quickstart configs for LSP
@@ -100,9 +99,15 @@ vim.pack.add({
   'https://github.com/stevearc/quicker.nvim',
   -- Git integration
   'https://github.com/lewis6991/gitsigns.nvim',
+  -- Mason
+  'https://github.com/mason-org/mason.nvim',
+  -- Mason lspconfig
+  'https://github.com/mason-org/mason-lspconfig.nvim',
 })
 
 require('fzf-lua').setup { fzf_colors = true }
 require('mini.completion').setup {}
 require('quicker').setup {}
 require('gitsigns').setup {}
+require('mason').setup {}
+require("mason-lspconfig").setup {}

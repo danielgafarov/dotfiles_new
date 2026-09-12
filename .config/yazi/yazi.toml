@@ -3,6 +3,6 @@ edit = [
   { run = "nvim %s", block = true }
 ]
 
-text = [
-  { run = "nvim %s", block = true }
-]
+#text = [
+#  { run = "nvim %s", block = true }
+#]
