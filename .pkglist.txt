@@ -90,10 +90,9 @@ neovim
 network-manager-applet
 networkmanager
 newsflash
-nodejs-lts-krypton
 noto-fonts
-npm
 nvidia-open-dkms
+nvm
 nwg-look
 obfuscate
 obsidian

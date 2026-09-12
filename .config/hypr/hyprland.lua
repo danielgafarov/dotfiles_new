@@ -100,6 +100,7 @@ hl.env("ANDROID_HOME", "$HOME/Android/Sdk")
 hl.env("EDITOR", "/bin/nvim")
 hl.env("TERMINAL", "/bin/kitty")
 hl.env("RIPGREP_CONFIG_PATH", "/home/daniel/.ripgreprc")
+hl.env("PATH", "/home/daniel/.nvm/versions/node/v24.21.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/cuda/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/daniel/Android/Sdk/emulator:/home/daniel/Android/Sdk/platform-tools:/home/daniel/.local/bin")
 
 
 -----------------------
